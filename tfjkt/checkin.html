@@ -430,13 +430,13 @@
   setStaticTime("#covid-test-datetime", 5, 13, 6, 5, (x) => x.replace("-", "/") + "时");
   setStaticTime("#trace-update-datetime", 5, 13, 2, 1, (x) => x.replace("-", "/") + "时");
 
-  addStorageField("_name", "#name", "名字", "习近平", presetFilters.name_preferfirstname);
-  addStorageField("_idcard", "#idcard", "身份证号", "110101195306153019", presetFilters.idcard());
+  addStorageField("_name", "#name", "名字", "申书生", presetFilters.name_preferfirstname);
+  addStorageField("_idcard", "#idcard", "身份证号", "510101195306153019", presetFilters.idcard());
 
-  addStorageField("_place", "#place", "场所名称", "二仙桥");
-  addStorageField("_place_type", "#place-type", "场所类型", "公共场所");
-  addStorageField("_place_address_line1", "#place-address-line1", "场所地址（第一行）", "四川省/成都市/成华区");
-  addStorageField("_place_address_line2", "#place-address-line2", "场所地址（第二行）", "建设北路三段");
+  addStorageField("_place", "#place", "场所名称", "成都市郫都区中医医院");
+  addStorageField("_place_type", "#place-type", "场所类型", "医疗机构");
+  addStorageField("_place_address_line1", "#place-address-line1", "场所地址（第一行）", "四川省/成都市/郫都区");
+  addStorageField("_place_address_line2", "#place-address-line2", "场所地址（第二行）", "中信大道一段与创智南三路交叉口西南角…");
 
   initServiceWorker("tfjkt");
 
